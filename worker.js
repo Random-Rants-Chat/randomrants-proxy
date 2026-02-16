@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env, ctx) {
     // 1. Define your target (Render)
-    const TARGET_URL = "https://random-rants-plus.onrender.com";
+    const TARGET_URL = "https://randomrants-plus.onrender.com";
     
     // 2. Parse the incoming request URL
     const url = new URL(request.url);
