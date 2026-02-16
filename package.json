@@ -1,0 +1,25 @@
+{
+  "name": "randomrants-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for random rants +",
+  "homepage": "https://github.com/Random-Rants-Chat/randomrants-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/Random-Rants-Chat/randomrants-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Random-Rants-Chat/randomrants-proxy.git"
+  },
+  "license": "MIT",
+  "author": "Gvbvdxx",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "https": "^1.0.0",
+    "ws": "^8.19.0",
+    "wss": "^3.3.4"
+  }
+}
