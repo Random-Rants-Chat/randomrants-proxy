@@ -1,0 +1,16 @@
+{
+  "name": "random-rants-proxy",
+  "main": "worker.js", 
+  "compatibility_date": "2024-02-16",
+  
+  // This enables standard Node.js APIs if you need them later
+  "compatibility_flags": [ "nodejs_compat" ],
+
+  // IMPORTANT: Do NOT include an "assets" or "site" section here.
+  // If you include "assets", Cloudflare will try to serve static files
+  // instead of running your proxy script.
+  
+  "observability": {
+    "enabled": true
+  }
+}
