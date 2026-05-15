@@ -1,5 +1,5 @@
 {
-  "name": "random-rants-proxy",
+  "name": "randomrants-proxy",
   "main": "worker.js", 
   "compatibility_date": "2024-02-16",
   
